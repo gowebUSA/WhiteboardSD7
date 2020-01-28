@@ -1,4 +1,4 @@
-# Whiteboard7
+# WhiteboardSD7
 ## MSSA SD7 Whiteboard Exercise
 ### Class repository
 
