@@ -6,22 +6,30 @@ namespace EX3AErrorsExceptions
     {
         public static void AreaCircle()
         {
-            //Circle Area = pi x r^2
-            try
+            checked
             {
+                //Circle Area = pi x r^2
+                try
+                {
 
-                int r;
-                double A;
-                Console.Write("Enter the radius: ");
-                r = Convert.ToInt32(Console.ReadLine());
-                A = (3.14) * r * r;
-                Console.WriteLine($"The Area of circle of given radius is= {A}");
-                Console.ReadLine();
-            }
-            catch (FormatException fEx)
-            {
-                Console.WriteLine(fEx);
-                Console.ReadLine();
+                    int r;
+                    double A;
+                    Console.Write("\n\n");
+                    Console.Write("Calculate Area of a Circle :\n");
+                    Console.Write("----------------------------------------");
+                    Console.Write("\n\n");
+                    Console.Write("Enter the radius: ");
+                    r = Convert.ToInt32(Console.ReadLine());
+                    A = (3.14) * r * r;
+                    Console.WriteLine($"The Area of circle of given radius is= {A}");
+
+                }
+                catch (FormatException fEx)
+                {
+                    Console.WriteLine(fEx.Message + " Please hit enter to continue.");
+                    Console.ReadLine();
+                    AreaCircle();
+                }
             }
         }
 
@@ -30,7 +38,11 @@ namespace EX3AErrorsExceptions
             //Triangle Area = 1/2(base x height)
             try
             {
-                Console.Write("Please write the \"b\" value of your triangle: ");
+                Console.Write("\n\n");
+                Console.Write("Calculate Area of a Triangle :\n");
+                Console.Write("----------------------------------------");
+                Console.Write("\n\n");
+                Console.Write("\nPlease write the \"b\" value of your triangle: ");
                 decimal bSide = decimal.Parse(Console.ReadLine());
                 Console.Write("Please write the \"h\" value of your triangle: ");
                 decimal hSide = decimal.Parse(Console.ReadLine());
@@ -40,8 +52,9 @@ namespace EX3AErrorsExceptions
             }
             catch (FormatException fEx)
             {
-                Console.WriteLine(fEx);
+                Console.WriteLine(fEx.Message + " Please hit enter to continue.");
                 Console.ReadLine();
+                AreaTriangle();
             }
         }
         public static void AreaHemisphere() 
@@ -52,22 +65,28 @@ namespace EX3AErrorsExceptions
 
                 int r;
                 double area, volume, pi = 3.14;
-                Console.Write("Enter the radius of sphere: ");
+                Console.Write("\n\n");
+                Console.Write("Calculate Area of a Hemisphere :\n");
+                Console.Write("----------------------------------------");
+                Console.Write("\n\n");
+                Console.Write("\nEnter the radius of sphere: ");
                 r = Convert.ToInt32(Console.ReadLine());
                 area = 3 * pi * r * r;
                 volume = 1.333 * pi * r * r * r;
                 Console.WriteLine("Surface Area of sphere:" + area);
                 Console.WriteLine("Volume of sphere:" + volume);
-                Console.ReadKey();
+                
             }
             catch(FormatException fEx)
             {
-                Console.WriteLine(fEx);
+                Console.WriteLine(fEx.Message + " Please hit enter to continue.");
                 Console.ReadLine();
+                AreaHemisphere();
             }
         }
         public static void QuadraticExpression()
         {
+            //ax2 + bx + c = 0
             try
             {
 
@@ -110,22 +129,23 @@ namespace EX3AErrorsExceptions
             }
             catch (FormatException fEx)
             {
-                Console.WriteLine(fEx);
+                Console.WriteLine(fEx.Message + " Please hit enter to continue.");
                 Console.ReadLine();
+                QuadraticExpression();
             }
 
         }
         static void Main(string[] args)
-        //ref: forgetcode.com/csharp/1514-area-of-circle
-        //ref: forum.tutorials7.com/1156/how-to-calculate-an-area-of-a-triangle-in-c%23-and-visual-basics
-        //ref: csharp-console-examples.com/basic/c-program-to-calculate-the-volume-and-surface-area-of-sphere
-        //ref: w3resource.com/csharp-exercises/conditional-statement/csharp-conditional-statement-exercise-11.php
+        //ref: AreaCircle. forgetcode.com/csharp/1514-area-of-circle
+        //ref: AreaTriangle. forum.tutorials7.com/1156/how-to-calculate-an-area-of-a-triangle-in-c%23-and-visual-basics
+        //ref: AreaHemisphere. csharp-console-examples.com/basic/c-program-to-calculate-the-volume-and-surface-area-of-sphere
+        //ref: QuadraticExpression. w3resource.com/csharp-exercises/conditional-statement/csharp-conditional-statement-exercise-11.php
         {
             Console.WriteLine("EX3AErrorsExceptions.Priogram.Main()");
             AreaCircle();
-            AreaTriangle();
-            AreaHemisphere();
-            QuadraticExpression();
+            //AreaTriangle();
+            //AreaHemisphere();
+            //QuadraticExpression();
 
 
 
