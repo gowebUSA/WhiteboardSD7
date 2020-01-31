@@ -66,16 +66,68 @@ namespace EX3AErrorsExceptions
                 Console.ReadLine();
             }
         }
+        public static void QuadraticExpression()
+        {
+            try
+            {
+
+                int a, b, c;
+
+                double d, x1, x2;
+                Console.Write("\n\n");
+                Console.Write("Calculate root of Quadratic Equation :\n");
+                Console.Write("----------------------------------------");
+                Console.Write("\n\n");
+
+                Console.Write("Input the value of a : ");
+                a = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Input the value of b : ");
+                b = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Input the value of c : ");
+                c = Convert.ToInt32(Console.ReadLine());
+
+                d = b * b - 4 * a * c;
+                if (d == 0)
+                {
+                    Console.Write("Both roots are equal.\n");
+                    x1 = -b / (2.0 * a);
+                    x2 = x1;
+                    Console.Write("First  Root Root1= {0}\n", x1);
+                    Console.Write("Second Root Root2= {0}\n", x2);
+                }
+                else if (d > 0)
+                {
+                    Console.Write("Both roots are real and diff-2\n");
+
+                    x1 = (-b + Math.Sqrt(d)) / (2 * a);
+                    x2 = (-b - Math.Sqrt(d)) / (2 * a);
+
+                    Console.Write("First  Root Root1= {0}\n", x1);
+                    Console.Write("Second Root root2= {0}\n", x2);
+                }
+                else
+                    Console.Write("Root are imeainary;\nNo Solution. \n\n");
+            }
+            catch (FormatException fEx)
+            {
+                Console.WriteLine(fEx);
+                Console.ReadLine();
+            }
+
+        }
         static void Main(string[] args)
         //ref: forgetcode.com/csharp/1514-area-of-circle
         //ref: forum.tutorials7.com/1156/how-to-calculate-an-area-of-a-triangle-in-c%23-and-visual-basics
         //ref: csharp-console-examples.com/basic/c-program-to-calculate-the-volume-and-surface-area-of-sphere
+        //ref: w3resource.com/csharp-exercises/conditional-statement/csharp-conditional-statement-exercise-11.php
         {
             Console.WriteLine("EX3AErrorsExceptions.Priogram.Main()");
             AreaCircle();
             AreaTriangle();
             AreaHemisphere();
-            
+            QuadraticExpression();
+
+
 
         }
     }
