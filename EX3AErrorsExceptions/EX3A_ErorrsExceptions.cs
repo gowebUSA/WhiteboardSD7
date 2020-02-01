@@ -2,13 +2,14 @@
 
 namespace EX3AErrorsExceptions
 {
-    class Program
+    class EX3A_ErorrsExceptions
     {
         public static void AreaCircle()
         {
             checked
             {
                 //Circle Area = pi x r^2
+                
                 try
                 {
 
@@ -18,10 +19,23 @@ namespace EX3AErrorsExceptions
                     Console.Write("Calculate Area of a Circle :\n");
                     Console.Write("----------------------------------------");
                     Console.Write("\n\n");
-                    Console.Write("Enter the radius: ");
-                    r = Convert.ToInt32(Console.ReadLine());
-                    A = (3.14) * r * r;
-                    Console.WriteLine($"The Area of circle of given radius is= {A}");
+
+                    // This is start of EX 3D with numbers only and No Negative numbers.
+                    //Finally block is below.
+                    do
+                    {
+                        Console.Write("Enter the radius: ");
+                        r = Convert.ToInt32(Console.ReadLine());
+
+                        if (r < 0)
+                        {
+                            Console.WriteLine("Number cannot be negative");
+                        }
+                    } while (r < 0);
+
+                        A = (3.14) * r * r;
+                        Console.WriteLine($"The Area of circle of given radius is= {A}");
+                    
 
                 }
                 catch (FormatException fEx)
@@ -30,6 +44,15 @@ namespace EX3AErrorsExceptions
                     Console.ReadLine();
                     AreaCircle();
                 }
+                finally
+                {
+                    // This statement is executed before Main exits.
+                    // ... It is reached when an exception is thrown.
+                    // ... It is reached after the return.
+                    // ... It is reached in other cases.
+                    Console.WriteLine("Control flow reaches finally");
+                }
+
             }
         }
 
@@ -55,6 +78,14 @@ namespace EX3AErrorsExceptions
                 Console.WriteLine(fEx.Message + " Please hit enter to continue.");
                 Console.ReadLine();
                 AreaTriangle();
+            }
+            finally
+            {
+                // This statement is executed before Main exits.
+                // ... It is reached when an exception is thrown.
+                // ... It is reached after the return.
+                // ... It is reached in other cases.
+                Console.WriteLine("Control flow reaches finally");
             }
         }
         public static void AreaHemisphere() 
@@ -82,6 +113,14 @@ namespace EX3AErrorsExceptions
                 Console.WriteLine(fEx.Message + " Please hit enter to continue.");
                 Console.ReadLine();
                 AreaHemisphere();
+            }
+            finally
+            {
+                // This statement is executed before Main exits.
+                // ... It is reached when an exception is thrown.
+                // ... It is reached after the return.
+                // ... It is reached in other cases.
+                Console.WriteLine("Control flow reaches finally");
             }
         }
         public static void QuadraticExpression()
@@ -133,16 +172,28 @@ namespace EX3AErrorsExceptions
                 Console.ReadLine();
                 QuadraticExpression();
             }
-
+            finally
+            {
+                // This statement is executed before Main exits.
+                // ... It is reached when an exception is thrown.
+                // ... It is reached after the return.
+                // ... It is reached in other cases.
+                Console.WriteLine("Control flow reaches finally");
+            }
         }
         static void Main(string[] args)
         //ref: AreaCircle. forgetcode.com/csharp/1514-area-of-circle
         //ref: AreaTriangle. forum.tutorials7.com/1156/how-to-calculate-an-area-of-a-triangle-in-c%23-and-visual-basics
         //ref: AreaHemisphere. csharp-console-examples.com/basic/c-program-to-calculate-the-volume-and-surface-area-of-sphere
         //ref: QuadraticExpression. w3resource.com/csharp-exercises/conditional-statement/csharp-conditional-statement-exercise-11.php
+        //ref: stackoverflow.com/questions/8261944/prevent-negative-numbers-in-c  (No Negative Number) EX 3D. 
         {
-            Console.WriteLine("EX3AErrorsExceptions.Priogram.Main()");
+            Console.WriteLine("EX3A_ErrorsExceptions.Priogram.Main()");
             AreaCircle();
+            //Only use AreaCircle() for EX 3D. No negative and valid character.
+            //
+            //
+            //
             //AreaTriangle();
             //AreaHemisphere();
             //QuadraticExpression();

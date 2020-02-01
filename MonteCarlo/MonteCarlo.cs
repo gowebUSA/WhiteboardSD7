@@ -25,7 +25,7 @@ namespace MonteCarlo
             Console.WriteLine("\nHypotenuse : " + hypo);
             Console.ReadKey();
 
-            Console.WriteLine("MonteCarlo.Program.Main()");
+            Console.WriteLine("MonteCarlo.Program.Main()======NOT WORKING");
             //ref: www.csharp-console-examples.com/general/c-calculating-hypotenuse-of-a-triangle/
             //ref: www.c-sharpcorner.com/article/generating-random-number-and-string-in-C-Sharp/
         }
