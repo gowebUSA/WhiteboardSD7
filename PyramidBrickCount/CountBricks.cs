@@ -17,7 +17,8 @@ namespace PyramidBrickCount
         {
             Console.WriteLine("\nPyramidBrickCount.CountBricks.Main()");
 
-            Console.WriteLine($"\n\treturned count is: {CountOfBricks(100, 30 , .17)} bricks!");
+            Console.WriteLine($"\n\treturned count is: {CountOfBricks(100, 30, .17)} bricks!");
+            Console.WriteLine($"\n\treturned count is: {CountOfBricks(1, 1, 1.0)} bricks!");
         }
     }
 }
