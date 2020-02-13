@@ -47,8 +47,8 @@ namespace AnimalSound
         }
         static void Main(string[] args)
         {
-            string duck = duckSound("duck", "quack");
-            string dog = duckSound("dog", "woof");
+            string duck = duckSound("duck", " quack");
+            string dog = duckSound("dog", " woof");
 
             Console.WriteLine($"The {duck}");
             Console.WriteLine($"The {dog}");

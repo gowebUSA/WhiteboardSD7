@@ -6,9 +6,9 @@
 
 namespace Tuition
 {
-    class Program
+    class Tuition
     {
-        public static void DisplayAnnualTuitionCost()
+        public static void DisplayAnnualTuitionCost() //Coumpound Interest Formula
         {
             decimal tuition = 6000.00M;
             

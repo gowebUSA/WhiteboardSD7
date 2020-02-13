@@ -26,23 +26,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYZ", "XYZ\XYZ.csproj", "{C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathPi", "MathPi\MathPi.csproj", "{0C0C8EFD-1AD0-4738-8773-52BFC13F2EAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuition", "Tuition\Tuition.csproj", "{BB0B8D09-68ED-4D1F-9C9D-2D21EE3196D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuition", "Tuition\Tuition.csproj", "{BB0B8D09-68ED-4D1F-9C9D-2D21EE3196D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX3AErrorsExceptions", "EX3AErrorsExceptions\EX3AErrorsExceptions.csproj", "{DAFBBB80-D285-4E20-9DD6-EA869810EA32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX3AErrorsExceptions", "EX3AErrorsExceptions\EX3AErrorsExceptions.csproj", "{DAFBBB80-D285-4E20-9DD6-EA869810EA32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathematicalFormulas", "MathematicelFormulas\MathematicalFormulas.csproj", "{8306751C-2471-42B0-8962-84CB0B3B1AC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathematicalFormulas", "MathematicelFormulas\MathematicalFormulas.csproj", "{8306751C-2471-42B0-8962-84CB0B3B1AC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex4D", "Ex4D\Ex4D.csproj", "{8826A25F-25DA-458C-9A50-37A1F5F78136}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex4D", "Ex4D\Ex4D.csproj", "{8826A25F-25DA-458C-9A50-37A1F5F78136}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "ReverseSpelling\ReverseString.csproj", "{94884C87-2231-4D94-84E4-70A90F794656}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseString", "ReverseSpelling\ReverseString.csproj", "{94884C87-2231-4D94-84E4-70A90F794656}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseStringTest", "ReverseStringTest\ReverseStringTest.csproj", "{1BBF051F-5BDF-4844-A636-AA0F99A581D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseStringTest", "ReverseStringTest\ReverseStringTest.csproj", "{1BBF051F-5BDF-4844-A636-AA0F99A581D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetCharacterPosition", "StringCount\GetCharacterPosition.csproj", "{9ECEAFD2-01B4-4F0F-AA2C-CDBF30051475}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetCharacterPosition", "StringCount\GetCharacterPosition.csproj", "{9ECEAFD2-01B4-4F0F-AA2C-CDBF30051475}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeLib", "PalindromeLib\PalindromeLib.csproj", "{1CD113FC-EA17-4C62-B16C-3CF009083A20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeLib", "PalindromeLib\PalindromeLib.csproj", "{1CD113FC-EA17-4C62-B16C-3CF009083A20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeTest", "PalindromeTest\PalindromeTest.csproj", "{7549F8F1-95F7-4F5D-AD16-84263D7934CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeTest", "PalindromeTest\PalindromeTest.csproj", "{7549F8F1-95F7-4F5D-AD16-84263D7934CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quizzes", "Quizzes\Quizzes.csproj", "{ECA5BE3D-F816-4B66-A3C9-A9B41E0C96A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindJulian", "FindJulian\FindJulian.csproj", "{9FB043C9-6C1D-41D8-93F6-3B685BB1EE88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calendar", "..\..\..\Downloads\Whiteboard7-master-200211\Whiteboard7-master\Calendar\Calendar.csproj", "{696E0B1C-FFF0-4B8A-846F-129D6C879D32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalendarTest", "..\..\..\Downloads\Whiteboard7-master-200211\Whiteboard7-master\CalendarTest\CalendarTest.csproj", "{BF92A307-B256-4006-9993-95C6F6B85D5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alphabetize", "Alphabetize\Alphabetize.csproj", "{127E404B-BFFB-48F5-8615-FD3AF5608C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphabetizedTest", "AlphabetizedTest\AlphabetizedTest.csproj", "{62610F4D-4B6D-4DB5-95FA-BB5DFC91A75F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -122,6 +134,30 @@ Global
 		{7549F8F1-95F7-4F5D-AD16-84263D7934CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7549F8F1-95F7-4F5D-AD16-84263D7934CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7549F8F1-95F7-4F5D-AD16-84263D7934CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA5BE3D-F816-4B66-A3C9-A9B41E0C96A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA5BE3D-F816-4B66-A3C9-A9B41E0C96A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA5BE3D-F816-4B66-A3C9-A9B41E0C96A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA5BE3D-F816-4B66-A3C9-A9B41E0C96A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FB043C9-6C1D-41D8-93F6-3B685BB1EE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB043C9-6C1D-41D8-93F6-3B685BB1EE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB043C9-6C1D-41D8-93F6-3B685BB1EE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB043C9-6C1D-41D8-93F6-3B685BB1EE88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{696E0B1C-FFF0-4B8A-846F-129D6C879D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696E0B1C-FFF0-4B8A-846F-129D6C879D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696E0B1C-FFF0-4B8A-846F-129D6C879D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{696E0B1C-FFF0-4B8A-846F-129D6C879D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF92A307-B256-4006-9993-95C6F6B85D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF92A307-B256-4006-9993-95C6F6B85D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF92A307-B256-4006-9993-95C6F6B85D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF92A307-B256-4006-9993-95C6F6B85D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127E404B-BFFB-48F5-8615-FD3AF5608C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127E404B-BFFB-48F5-8615-FD3AF5608C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127E404B-BFFB-48F5-8615-FD3AF5608C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127E404B-BFFB-48F5-8615-FD3AF5608C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62610F4D-4B6D-4DB5-95FA-BB5DFC91A75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62610F4D-4B6D-4DB5-95FA-BB5DFC91A75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62610F4D-4B6D-4DB5-95FA-BB5DFC91A75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62610F4D-4B6D-4DB5-95FA-BB5DFC91A75F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

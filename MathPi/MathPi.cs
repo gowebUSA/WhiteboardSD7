@@ -6,7 +6,7 @@
 // requires user intervation to stop it.
 namespace MathPi
 {
-    class Program
+    class MathPi
     {
         public static Tuple<double,double> GetCoord(Random r)
         {
