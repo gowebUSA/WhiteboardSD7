@@ -138,21 +138,86 @@ namespace Quizzes
             return x;
 
         }
+        static int Question19()
+        {
+            int[] z = { -99, 0, 1, 2, 3, 5, 8, 13, 21, 34 };
+            int x = int.MaxValue;
+            foreach (var y in z) x = y < x ? y : x;
+            
+            return x;
+        }
+        static int Question20()
+        {
+            string[] arr = { "the", "quick", "brown", "fox"};
+            int x = arr[arr.Length - 1].Length;
+            return x;
+            
+        }
+        static bool Question21()
+        {
+            bool x;
+            int a = 6;
+            int b = 3;
+
+            a = ++a;
+            b = b & 1;
+
+            x = (a == b);
+            return x;
+        }
+        static string Question22()
+        {
+            string y = "mbilg";
+            string x = "";
+            for (int i = 0; i < y.Length; i++)
+            {
+                x += Convert.ToChar(y[i] - i);
+            }
+            return x;
+        }
+        static int Question23()
+        {
+            int x, y = 93;
+            x = y % 10;
+            x *= 10;
+            x += y / 10;
+            return x;
+        }
+        static string dwarf() // Question24
+        {
+            int happy;
+            var hi = true;
+            string[] dwarf = { "0:>", ":(", "x)", ":)", "|<", ":|", ":/" };
+
+            for (happy = 0; happy < dwarf.Length; happy++)
+            {
+                bool ho = !(hi);
+                hi = ho;
+            }
+            var x = dwarf[happy / 2] == ":)" ? "hi!" : "ho!";
+            return x;
+        }
         public static void Main(string[] args)
         {
             Console.WriteLine("Quizzes.Program.Main()");
-            Question7();
-            Question8();
-            Question9();
-            Question10();
-            Question11();
-            Question12();
-            Question13();
-            Question14();
-            //Question15();
-            Question16();
-            Question17();
-            Question18();
+            //Question7();
+            //Question8();
+            //Question9();
+            //Question10();
+            //Question11();
+            //Question12();
+            //Question13();
+            //Question14();
+            ////Question15();
+            //Question16();
+            //Question17();
+            //Console.WriteLine(Question18());
+            Console.WriteLine(Question19());
+            Console.WriteLine(Question20());
+            Console.WriteLine(Question21());
+            Console.WriteLine(Question22());
+            Console.WriteLine(Question23());
+            Console.WriteLine(dwarf()); //Question24
         }
     }
 }
