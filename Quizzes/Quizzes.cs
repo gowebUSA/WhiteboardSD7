@@ -141,9 +141,9 @@ namespace Quizzes
         static int Question19()
         {
             int[] z = { -99, 0, 1, 2, 3, 5, 8, 13, 21, 34 };
-            int x = int.MaxValue;
-            foreach (var y in z) x = y < x ? y : x;
-            
+            int x = int.MaxValue;                           //2,457,000,000....... as int.MaxValue
+            foreach (var y in z) x = y < x ? y : x;     
+                    //{ if (x = (y < x)) { x = y;} return x; }
             return x;
         }
         static int Question20()
