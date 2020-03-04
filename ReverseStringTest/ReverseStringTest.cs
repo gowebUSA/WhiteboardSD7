@@ -1,6 +1,4 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-using ReverseString; //use the namespace you are testing.
 namespace ReverseStringTest
 {
     [TestClass]

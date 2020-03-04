@@ -7,9 +7,9 @@ namespace ReverseString
         public static string GetReverse(string input)
         {
             string output = "";
-            for (int i = 1; i <= input.Length; i++)
+            for (int i = 1; i <= input.Length; i++)   //int i = 1; has to be positive so under for(){ - i } can be incremented.
             {
-                output += input[input.Length - i];
+                output += input[input.Length - i];   //We are accessing the last char first.
             }
             return output;
         }
