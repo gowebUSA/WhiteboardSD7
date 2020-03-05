@@ -66,15 +66,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortArray", "SortArray\Sort
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameRoulette", "GameRoulette\GameRoulette.csproj", "{3318406A-0D1B-4107-B57D-378691545433}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangFeatures7", "LangFeatures7\LangFeatures7.csproj", "{A0A94F5D-0CF8-4D06-B3F3-BF3DA33D885A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LangFeatures7", "LangFeatures7\LangFeatures7.csproj", "{A0A94F5D-0CF8-4D06-B3F3-BF3DA33D885A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestWord", "LongestWord\LongestWord.csproj", "{A5DC1481-6F8C-439F-8AF4-FB156860A21A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestWord", "LongestWord\LongestWord.csproj", "{A5DC1481-6F8C-439F-8AF4-FB156860A21A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumbers", "PrimeNumbers\PrimeNumbers.csproj", "{B17EDDEA-DC86-4A0F-8368-B90F37777275}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumbers", "PrimeNumbers\PrimeNumbers.csproj", "{B17EDDEA-DC86-4A0F-8368-B90F37777275}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumberTest", "PrimeNumberTest\PrimeNumberTest.csproj", "{30E66C50-ED61-499C-B3DB-8636540B6973}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumberTest", "PrimeNumberTest\PrimeNumberTest.csproj", "{30E66C50-ED61-499C-B3DB-8636540B6973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockDegreeAngle", "ClockDegreeAngle\ClockDegreeAngle.csproj", "{F32BEA58-54F7-4226-83B6-FDBF6087D171}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClockDegreeAngle", "ClockDegreeAngle\ClockDegreeAngle.csproj", "{F32BEA58-54F7-4226-83B6-FDBF6087D171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaPlayer", "MediaPlayer\MediaPlayer.csproj", "{C35BE4C1-8891-4A90-A8CC-5D2F269C3C13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -218,6 +220,10 @@ Global
 		{F32BEA58-54F7-4226-83B6-FDBF6087D171}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F32BEA58-54F7-4226-83B6-FDBF6087D171}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F32BEA58-54F7-4226-83B6-FDBF6087D171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C35BE4C1-8891-4A90-A8CC-5D2F269C3C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C35BE4C1-8891-4A90-A8CC-5D2F269C3C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C35BE4C1-8891-4A90-A8CC-5D2F269C3C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C35BE4C1-8891-4A90-A8CC-5D2F269C3C13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
