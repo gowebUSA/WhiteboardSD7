@@ -1,67 +1,47 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using MediaPlayer;
 
 namespace MediaPlayer
 {
-    public interface IStreamingDevice
-    {
-        public string DeviceName { get; set; }  //properties  prop+tab+tab
-        public bool IsPlaying { get; set; }    //properties  prop+tab+tab
-        public bool IsPaused { get; set; }  //properties  prop+tab+tab
-        bool Play();    //methods
-        void Pause();   //methods
-        void Ffwd();    //methods
-        void Rewind();
-        bool Stop();
-    }
     class MediaPlayer
     {
-    }
-    public class DVDPlayer : IStreamingDevice
-    {
-        public DVDPlayer()
+        static void Main(string[] args)
         {
-            DeviceName = "My DVD Player";
-            IsPlaying = false;
-            IsPaused = false;
-        }
-        public string DeviceName { get; set; }
+            Console.WriteLine("Media Player Demo!");
 
-        public bool IsPlaying { get; set; }
-        public bool IsPaused { get; set; }
+            var mediaPlayer = new DVDPlayer();
 
-        public void Ffwd()
-        {
-            Console.WriteLine($"\nFfwd {DeviceName}");
+            Console.WriteLine($"\tStreaming from: {mediaPlayer.DeviceName}.");
 
-        }
-        public void Pause()
-        {
-            //throw new NotImplementedException();
-            if (IsPlaying)
+            while (true)
             {
-                IsPaused = true;
-                Console.WriteLine($"\n{DeviceName} paused.");
+                Console.WriteLine("\tPush Up-Arrow to Play");
+                Console.WriteLine("\tPush [Spacebar] to Stop");
+                Console.WriteLine("\tPush  F  to Ffwd");
+                Console.WriteLine("\tPush  R  to Rewind");
+                Console.WriteLine("\tPush  P  to Pause");
+
+                switch (Console.ReadKey().Key)
+                {
+                    case ConsoleKey.RightArrow:
+                        mediaPlayer.Ffwd();
+                        break;
+                    case ConsoleKey.LeftArrow:
+                        mediaPlayer.Rewind();
+                        break;
+                    case ConsoleKey.Spacebar:
+                        mediaPlayer.Stop();
+                        break;
+                    case ConsoleKey.DownArrow:
+                        mediaPlayer.Pause();
+                        break;
+                    case ConsoleKey.UpArrow:
+                        mediaPlayer.Play();
+                        break;
+
+                }
             }
-            else Console.WriteLine($"\nCan't pause. {DeviceName} is not playing.");
-        }
-        public bool Play()
-        {
-            Console.WriteLine($"\nPlaying {DeviceName}");
-            IsPlaying = true;
-            IsPaused = false;
-            return IsPlaying;
-        }
-        public void Rewind()
-        {
-            Console.WriteLine($"\nRewind {DeviceName}");
-        }
-        public bool Stop()
-        {
-          Console.WriteLine($"\n{DeviceName} is now stopped.");
-            IsPlaying = false;
-            return IsPlaying;
+
         }
     }
 }

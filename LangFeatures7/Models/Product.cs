@@ -16,6 +16,7 @@ namespace LangFeatures7.Models
         public decimal? Price { get; set; }
         public Product Related { get; set; }
         public bool InStock { get; } //= true; now see new Constructor        //read only without the setter set;
+        public bool NameBeginsWithS => Name?[0] == 'S';     //page 96
         public static Product[] GetProducts()
         {
             Product kayak = new Product
