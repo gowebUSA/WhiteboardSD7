@@ -7,6 +7,15 @@ namespace Whiteboard7
         static void Main(string[] args)
         {
             Console.WriteLine("\n\tWhiteboard7.Program.Main()");
+            //200203 Calculating Averages, if statements, .Parse
+            //200206 Animal Sound, Overloading
+            //200211 Calendar, 
+            //200214 Alphabetize ToLower()
+            //Tuition has the compound interest formula.
+            //200309. LinqDemoCode
+            //200304. ClockDegreeAngle, .Abs, (int)(value)
+            //200307. Game Roulette, if, switch with goto, 
+            //200310. CountCapsLetter, IsUpper()
         }
     }
 }

@@ -21,7 +21,7 @@ namespace LongestWord
             string[] words = line.Split(new[] { " " }, StringSplitOptions.None);
             string word = "";
             int ctr = 0;
-            foreach (String s in words)
+            foreach (var s in words)
             {
                 if (s.Length > ctr)
                 {
@@ -29,9 +29,9 @@ namespace LongestWord
                     ctr = s.Length;
                 }
             }
-
+            Console.WriteLine("Longest Word is:");
             Console.WriteLine(word);
-            Console.WriteLine("Longest Word");
+            
 
         }
     }

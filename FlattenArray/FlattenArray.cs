@@ -7,6 +7,7 @@ namespace FlattenArray
 
         static void FlatArray()
         {
+            //Get all numbers in a single row.
             int[,] X =
             {
                 { 5, 8, 1, 35, 11},

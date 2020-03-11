@@ -219,7 +219,7 @@ namespace GameRoulette
 					//break;
 				case 10:
 					Console.WriteLine("Game 10");
-					goto case 1;
+					goto case 1;						//goto: Used for in replacement of break.
 					//break;
 			}
 		}
