@@ -14,8 +14,11 @@ namespace Whiteboard7
             //Tuition has the compound interest formula.
             //200309. LinqDemoCode
             //200304. ClockDegreeAngle, .Abs, (int)(value)
+            //200305. LangFeatures7. ASP Exercise. Chapter 4.
             //200307. Game Roulette, if, switch with goto, 
             //200310. CountCapsLetter, IsUpper()
+            //200310. RazorSD7 ASP Exercise. Chapter 5.
+            //200311. WorkingWithVS7. ASP Exercise. Chapter 6.
         }
     }
 }
