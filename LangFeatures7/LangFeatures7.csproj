@@ -7,8 +7,8 @@
     <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.0.0" />    <!--changed from .All to .App-->
-    <PackageReference Include="System.Net.Http" Version="4.3.2" />            <!--Micrsoft.NET.Sdk.DefaultItems.targets-->
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="3.1.0" />    <!--changed from .All to .App-->
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />            <!--Micrsoft.NET.Sdk.DefaultItems.targets-->
   </ItemGroup>
 
 </Project>
