@@ -34,24 +34,42 @@ namespace BinarySearch7
             Console.WriteLine("\nSort:");
             Array.Sort(list);
 
-            Console.WriteLine();
-            foreach (int s in list)
-            {
-                Console.WriteLine(s);
-            }
-
-            Console.WriteLine("\nBinarySearch for value: 7");
-            int[] index = list.BinarySearch();
-            if (index < 8)
-            {
-                list.(~index, 6);
-            }
+            //Console.WriteLine("\nBinarySearch for value: 7");
+            //int[] index = list.BinarySearch();
+            //if (index < 8)
+            //{
+            //    list.(~index, 6);
+            //}
 
             Console.WriteLine();
             foreach (int s in list)
             {
                 Console.WriteLine(s);
             }
+
+            //--------------------------------------------------------------------------------------------------------------
+            int numberToGuess = 7;
+            int userGuess = 0;
+
+            while (userGuess != numberToGuess)
+            {
+                Console.Write("Enter your guess: ");
+                int.TryParse(Console.ReadLine(), out userGuess);
+
+                if (userGuess > numberToGuess)
+                {
+                    Console.WriteLine("{0} is too high!", userGuess);
+                }
+                else if (userGuess < numberToGuess)
+                {
+                    Console.WriteLine("{0} is too low!", userGuess);
+                }
+                else
+                {
+                    Console.WriteLine("{0} is right! Congratulations.", userGuess);
+                }
+            }
+
 
         }
     }
