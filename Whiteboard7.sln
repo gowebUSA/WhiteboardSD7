@@ -90,7 +90,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountCaps LetterTest", "Cou
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithVS7", "WorkingWithVS7\WorkingWithVS7.csproj", "{19CC2A6B-A700-4CD2-98AC-26D5FABE896C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch7", "BinarySearch7\BinarySearch7.csproj", "{CB62EF69-3DE6-4EE9-8FAD-900F94D4DF61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch7", "BinarySearch7\BinarySearch7.csproj", "{CB62EF69-3DE6-4EE9-8FAD-900F94D4DF61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterCounts", "CharacterCounts\CharacterCounts.csproj", "{864061FD-D41A-46C5-93A4-81E7794E45E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterCountsTest", "CharacterCountsTest\CharacterCountsTest.csproj", "{1F48413E-2B32-4B90-A4AB-1F34A439711D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -266,6 +270,14 @@ Global
 		{CB62EF69-3DE6-4EE9-8FAD-900F94D4DF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB62EF69-3DE6-4EE9-8FAD-900F94D4DF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB62EF69-3DE6-4EE9-8FAD-900F94D4DF61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864061FD-D41A-46C5-93A4-81E7794E45E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864061FD-D41A-46C5-93A4-81E7794E45E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864061FD-D41A-46C5-93A4-81E7794E45E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864061FD-D41A-46C5-93A4-81E7794E45E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F48413E-2B32-4B90-A4AB-1F34A439711D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F48413E-2B32-4B90-A4AB-1F34A439711D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F48413E-2B32-4B90-A4AB-1F34A439711D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F48413E-2B32-4B90-A4AB-1F34A439711D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
