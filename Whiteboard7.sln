@@ -92,9 +92,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithVS7", "WorkingWi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch7", "BinarySearch7\BinarySearch7.csproj", "{CB62EF69-3DE6-4EE9-8FAD-900F94D4DF61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterCounts", "CharacterCounts\CharacterCounts.csproj", "{864061FD-D41A-46C5-93A4-81E7794E45E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterCounts", "CharacterCounts\CharacterCounts.csproj", "{864061FD-D41A-46C5-93A4-81E7794E45E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterCountsTest", "CharacterCountsTest\CharacterCountsTest.csproj", "{1F48413E-2B32-4B90-A4AB-1F34A439711D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterCountsTest", "CharacterCountsTest\CharacterCountsTest.csproj", "{1F48413E-2B32-4B90-A4AB-1F34A439711D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportStoreSD7", "SportStoreSD7\SportStoreSD7.csproj", "{0AFC7558-692F-476B-A6D5-7A55AC79A013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportStoreSD7.Test", "SportStoreSD7Test\SportStoreSD7.Test.csproj", "{EA366379-6C3E-429F-971C-4EA4EDED632D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -278,6 +282,14 @@ Global
 		{1F48413E-2B32-4B90-A4AB-1F34A439711D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F48413E-2B32-4B90-A4AB-1F34A439711D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F48413E-2B32-4B90-A4AB-1F34A439711D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AFC7558-692F-476B-A6D5-7A55AC79A013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AFC7558-692F-476B-A6D5-7A55AC79A013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AFC7558-692F-476B-A6D5-7A55AC79A013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AFC7558-692F-476B-A6D5-7A55AC79A013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA366379-6C3E-429F-971C-4EA4EDED632D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA366379-6C3E-429F-971C-4EA4EDED632D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA366379-6C3E-429F-971C-4EA4EDED632D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA366379-6C3E-429F-971C-4EA4EDED632D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

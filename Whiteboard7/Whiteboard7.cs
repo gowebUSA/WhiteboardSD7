@@ -20,6 +20,8 @@ namespace Whiteboard7
             //200310. CountCapsLetter, IsUpper()
             //200310. RazorSD7. ASP Exercise. Week 9. Chapter 5. LAB9B.
             //200311. WorkingWithVS7. ASP Exercise. Week 9. Chapter 6. LAB9C. NuGet, bootstrap, debugger, BrowserLink.
+            //200324. SportStoreSD7.  ASP.NET Chap 8. 
+            //200324. SportStoreSD7.Test. Using xUnit Test created from Whiteboard7 Solution.
         }
     }
 }

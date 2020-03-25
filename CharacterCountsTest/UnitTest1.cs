@@ -11,6 +11,7 @@ namespace CharacterCountsTest
         {
             Assert.AreEqual(4, CharCount.CountUpper("The San Diego Zoo"));
             Assert.AreEqual(3, CharCount.CountUpper("onceUponATime"));
+            Assert.AreEqual(2, CharCount.CountUpper("You and Me"));
         }
     }
 }
