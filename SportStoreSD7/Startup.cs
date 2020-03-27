@@ -16,8 +16,9 @@ namespace SportStoreSD7
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration) => Configuration = configuration;  //Page 212.
-        public IConfiguration Configuration { get; }    //Page 212.
+        public Startup(IConfiguration configuration) => Configuration = configuration;  //Page 212. New constructor
+        public IConfiguration Configuration { get; }    //Page 212. get; means read only.
+
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
