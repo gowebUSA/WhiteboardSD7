@@ -9,7 +9,7 @@ This is a repository where I can keep my sample code form current class.
 - 200206 Animal Sound, Overloading
 - 200211 Calendar, 
 - 200214 Alphabetize ToLower()
-### ASP>NET MVC Starts
+### ASP.NET MVC Starts
 - 200309 LinqDemoCode
 - 200304 ClockDegreeAngle, .Abs, (int)(value)
 - 200305 LangFeatures7. ASP Exercise. Chapter 4.
