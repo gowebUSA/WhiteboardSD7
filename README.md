@@ -9,7 +9,7 @@ This is a repository where I can keep my sample code form current class.
 - 200206 Animal Sound, Overloading
 - 200211 Calendar, 
 - 200214 Alphabetize ToLower()
-- ASP>NET MVC Starts..................................................................................
+### ASP>NET MVC Starts
 - 200309 LinqDemoCode
 - 200304 ClockDegreeAngle, .Abs, (int)(value)
 - 200305 LangFeatures7. ASP Exercise. Chapter 4.
@@ -19,5 +19,5 @@ This is a repository where I can keep my sample code form current class.
 - 200311 WorkingWithVS7. ASP Exercise. Week 9. Chapter 6. LAB9C. NuGet, bootstrap, debugger, BrowserLink.
 - 200324 SportStoreSD7.  ASP.NET Chap 8. 
 - 200324 SportStoreSD7.Test. Using xUnit Test created from Whiteboard7 Solution.
-- 200326 ContosoUniversityData7. Creates SQL file. docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/database-first-development/setting-up-database
+- 200326 ContosoUniversityData7. Creates SQL file. Ref: docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/database-first-development/setting-up-database
 - 200326 ContoseSite7. Connects SQL, DO.NET, EntityFramework v6.
