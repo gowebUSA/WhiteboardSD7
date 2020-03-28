@@ -20,6 +20,8 @@ namespace Whiteboard7
             //200310. CountCapsLetter, IsUpper()
             //200310. RazorSD7. ASP Exercise. Week 9. Chapter 5. LAB9B.
             //200311. WorkingWithVS7. ASP Exercise. Week 9. Chapter 6. LAB9C. NuGet, bootstrap, debugger, BrowserLink.
+                      //Also see the EX fle on C:\Users\goric\OneDrive\Documents\MSSA\421 Developing Cloud App\..
+                      //..Lab\Week 10\LAB 1A WorkingWithVisualStudio\WorkingWithVisualStudio.
             //200324. SportStoreSD7.  ASP.NET Chap 8. 
             //200324. SportStoreSD7.Test. Using xUnit Test created from Whiteboard7 Solution.
             //200326. ContosoUniversityData7. Creates SQL file. docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/database-first-development/setting-up-database
