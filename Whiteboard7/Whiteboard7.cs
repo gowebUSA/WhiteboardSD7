@@ -25,7 +25,9 @@ namespace Whiteboard7
             //200326. ContoseSite7. Connects SQL, DO.NET, EntityFramework v6.
             //200327. WorkingWithVS7 + .Tests with Unit Testing, Fake Repository and Moq. 
             //200328. Transfers WorkingWithVS7 + .Tests to MssaHwSd7 Solution.
-            //200328. Transfers ContosoSite7 + ContosoUniversityData7 from Whiteboard7 Solution.
+            //200328. Transfers ContosoSite7 + ContosoUniversityData7 to MssaHwSd7 Solution.
+            //200328. Transfers SportStoreSD7 + Tests to MssaHwSd7 Solution..
+            //200401. CountWordsCamelCase. Whiteboard exercise for Ali. Ref:https://ide.geeksforgeeks.org/LalwBOBDYA
         }
     }
 }
